@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="./responsiveness.css">
+
+    <title>Cro</title>
+
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+      google.charts.load("current", {packages:["corechart"]});
+      google.charts.setOnLoadCallback(drawChart);
+      function drawChart() {
+        var data = google.visualization.arrayToDataTable([
+          ['Task', 'Hours per Day'],
+          ['Marketing',     10],
+          ['Liquidity',    10]
+        ]);
+
+        var options = {
+          pieHole: 0.4,
+          width:700,
+          slices: [{color:'purple'},{color:"black"},{color:"#321442"}],
+          backgroundColor:"#fff",
+        };
+
+        var chart = new google.visualization.PieChart(document.getElementById('donutchart'));
+        chart.draw(data, options);
+      }
+
+      function showHide(a) {
+
+          if(a!==xmark){
+                document.getElementById('xmark').style.display = 'block';
+                document.getElementById('ham').style.display = 'none';
+                document.getElementsByClassName('nav-ul')[0].style.right = '0';
+          }else{
+                document.getElementById('xmark').style.display = 'none';
+                document.getElementById('ham').style.display = 'block';
+                document.getElementsByClassName('nav-ul')[0].style.right = '-50'+ '%';
+          }
+          
+      }
+
+    </script>
+</head>
+<body>
+    <header class="head-bar">
+        <nav>
+            <div class="nav-img"></div>
+            <ul class="nav-ul">
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">TOKENOMICS</a></li>
+                <li><a href="#">ROADMAP</a></li>
+                <li><a href="#">HOW TO BUY</a></li>
+                <li><a href="#">FAQS</a></li>
+            </ul>
+            <div>
+                <i id="ham" class="fa-solid fa-bars" onclick="showHide(this)"></i>
+                <i id="xmark" class="fa-solid fa-xmark" onclick="showHide(this)"></i>
+            </div>
+        </nav>
+    </header>
+
+    <section class="home-sec">
+        <div class="inner-home">
+            <div class="home-pic"></div>
+            <div class="home-btns">
+                <button>BUY</button>
+                <button>WHITEPAPER</button>
+            </div>
+            <div class="home-icn">
+                <div class="inner-home-icn">
+                    <a href="#"><i class="bi bi-telegram"></i></a>
+                    <a href="#"><i class="bi bi-twitter"></i></a>
+                    <a href="#"><?xml version="1.0" encoding="utf-8"?>
+                        <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                            width="35px" viewBox="0 0 2167.7 2502.5" style="enable-background:new 0 0 2167.7 2502.5;" xml:space="preserve">
+                        <style type="text/css">
+                            .st0{fill:url(#SVGID_1_);}
+                            .st1{fill:url(#SVGID_00000016760000628848746960000000291323288447655331_);}
+                            .st2{fill:#FFFFFF;}
+                        </style>
+                        <linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="795.8919" y1="1699.9476" x2="795.8919" y2="1608.7477" gradientTransform="matrix(27.4398 0 0 -27.4398 -20755.2402 46646.2188)">
+                            <stop  offset="0" style="stop-color:#25376C"/>
+                            <stop  offset="1" style="stop-color:#1F1F49"/>
+                        </linearGradient>
+                        <path class="st0" d="M1083.9,0L0,625.6v1251.3l1083.9,625.6l1083.9-625.6V625.6L1083.9,0z"/>
+                        <linearGradient id="SVGID_00000007418222533405911760000015435408293652292017_" gradientUnits="userSpaceOnUse" x1="776.1419" y1="1608.7477" x2="776.1419" y2="1699.9476" gradientTransform="matrix(27.4398 0 0 -27.4398 -20755.2402 46646.2188)">
+                            <stop  offset="0" style="stop-color:#25376C"/>
+                            <stop  offset="1" style="stop-color:#1F1F49"/>
+                        </linearGradient>
+                        <path style="fill:url(#SVGID_00000007418222533405911760000015435408293652292017_);" d="M1083.9,0L0,625.6v1251.3l1083.9,625.6V0z"
+                            />
+                        <path class="st2" d="M1506.4,540.6H655.8L557,974.1h1053.7L1506.4,540.6z M806.7,1569.6v-288.1l-252.4-159.2l-285.4,211.3
+                            l389.6,677.8H815l183.8-172.9v-85.1L806.7,1569.6z"/>
+                        <path class="st2" d="M1358.3,1040H809.5l90.6,241.5l-27.4,271.7h422.6l-27.4-271.7L1358.3,1040z"/>
+                        <path class="st2" d="M1610.7,1119.5L1361,1281.4v288.1l-189.3,183.8v85.1l183.8,170.1h153.7l386.9-675L1610.7,1119.5z"/>
+                        </svg>
+                        </a>
+                </div>
+        </div>
+    </section>
+
+    <section class="about">
+        <div class="inner-about">
+            <h3>ABOUT US</h3>
+            <p>Crononomics, THE first ever Cronos Nomics and first ever P2E game on the Cronos network. We are the Flokinomics of Cronos. Crononomics, the game, is already released! You can earn play our game and earn Cronos by <a href="">Clicking here</a></p>
+        </div>
+
+    </section>
+    <section class="chart">
+        <div class="inner-chart">
+    <style>#dexscreener-embed{position:relative;width:100%;height:100%;}@media(min-width:1400px){#dexscreener-embed{padding-bottom:65%;}}#dexscreener-embed iframe{position:absolute;width:100%;height:100%;top:0;left:0;border:0;}</style><div id="dexscreener-embed"><iframe src="https://dexscreener.com/osmosis/9?embed=1&trades=0&info=0"></iframe></div>
+        </div>
+    </section>
+
+    <section class="check">
+        <div class="inner-check">
+            <h3>CHECK US ON</h3>
+            <div class="check-icon">
+                <a href="#"><i class="bi bi-telegram"></i></a>
+                <a href="#"><i class="bi bi-twitter"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <section class="about-cro">
+        <div class="inner-about-cro">
+            <div class="about-c">
+                <h3>ABOUT CRO CAKE</h3>
+                <div class="about-con">
+                    <h3>What makes Cro Cake that special?</h3>
+                    <p>We aim to be the Floki of the Cronos Blockchain. Built on a foundation of an amazing supportive community. Stealth launched to give everybody a fair shake. We have a hard working dev team to include influencers, contract developers, and web & dapp developers. With our wonderful community support we aim to build an entire utility based ecosystem.</p>
+                    <ul>
+                        <li>Utilities will be developed for Croki that will gives us more momentum and a strong base line.</li>
+                        <li>The standard for meme coins</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="about-img">
+
+            </div>
+        </div>
+    </section>
+    <section class="roadmap">
+        <div class="inner-roadmap">
+            <h3 id="in3">ROADMAP</h3>
+            <section class="timeline-section">
+                <div class="timeline-items">
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date">LAUNCH PHASE</div>
+                        <div class="timeline-content">
+                            <h3>LAUNCH PHASE</h3>
+                            <ul>
+                                <li>40 BNB Private Sale</li>
+                                <li>Website V1 Release</li>
+                                <li>Launch (45k Market Cap)</li>
+                                <li>Initial Marketing Push</li>
+                                <li>CMC and CG Application</li>
+                                <li>KATZ Soundtrack Release</li>
+                                <li>Whitepaper V1</li>
+                                <li>Gitbook Whitepaper</li>
+                                <li>Standard KYC and Audit</li>
+                                <li>NFT Preview</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date">PHASE 2</div>
+                        <div class="timeline-content">
+                            <h3>LAUNCH PHASE</h3>
+                            <ul>
+                                <li>40 BNB Private Sale</li>
+                                <li>Website V1 Release</li>
+                                <li>Launch (45k Market Cap)</li>
+                                <li>Initial Marketing Push</li>
+                                <li>CMC and CG Application</li>
+                                <li>KATZ Soundtrack Release</li>
+                                <li>Whitepaper V1</li>
+                                <li>Gitbook Whitepaper</li>
+                                <li>Standard KYC and Audit</li>
+                                <li>NFT Preview</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date">PHASE 3</div>
+                        <div class="timeline-content">
+                            <h3>LAUNCH PHASE</h3>
+                            <ul>
+                                <li>40 BNB Private Sale</li>
+                                <li>Website V1 Release</li>
+                                <li>Launch (45k Market Cap)</li>
+                                <li>Initial Marketing Push</li>
+                                <li>CMC and CG Application</li>
+                                <li>KATZ Soundtrack Release</li>
+                                <li>Whitepaper V1</li>
+                                <li>Gitbook Whitepaper</li>
+                                <li>Standard KYC and Audit</li>
+                                <li>NFT Preview</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </section>
+    <section class="tokenomics">
+        <div class="in-tokenomics">
+            <div class="token-contentp">
+                <div class="token-txt">
+                    <h3>TOKENOMICS</h3>
+
+                    <p>Cro Cake tokenomics are pretty simple structured.
+                    Cro Cake has a Total Supply of<span
+                    class="spe"> 1 Trillion (1,000,000,000,000)</span>
+                    <ul class="t-ul">
+                        <li>10% Buy Tax</li>
+                        <li>20% Sell tax</li>
+                    </ul>
+                    </p>
+                </div>
+                <div class="chartg" id="donutchart" style="width: 650px; height: 450px;">
+                </div>
+
+            </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="faq">
+        <h3>FREQUENTLY ASKED QUESTION</h3>
+        <div class="inner-faq">
+            <div class="mfaq">
+                <h3>How can I contact you?</h3>
+                <p>You may contact us on <a href="#">Telegram</a> or email us directly at contact</p>
+            </div>
+            <div class="mfaq">
+                <h3>How do I buy Croki?</h3>
+                <p>You can buy the tokens on MMF. Make sure you click the Settings icon on MMF and set the Slippage Tolerance to 11%</p>
+
+            </div>
+            <div class="mfaq">
+                <h3>What is Croki?</h3>
+                <p>A token on the Cronos blockchain created by a diverse group of well-skilled individuals from around the globe to become the Floki of this new chain. On our expedition to the crown, we will operate with integrity, transparency, and respect for our community.</p>
+
+            </div>
+            <div class="mfaq">
+                <h3>Unable to buy Croki on MMF?</h3>
+                <p>Click the Settings icon on MMF and set the Slippage Tolerance to 11%. If it still doesn't work, contact us. One of our team, or someone from the community will be happy to help!</p>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="about-t">
+        <div class="inner-about-t">
+            <div class="about-t-img"></div>
+            <div class="about-t-txt">
+                <h3>About Contrat</h3>
+                <div class="token-t">
+                    <h3>Name:<span class="tspe">CAKE</span></h3>
+                    <h3>Type:<span class="tspe">1 Trillion</span></h3>
+                    <h3>Symbol:<span class="tspe">$CROCAKE</span></h3>
+                    <div class="bdiv">
+                        <a href="#"><button>BUY CRO CAKE</button></a>
+                        <a href="#"><button>CRO CAKE CHART</button></a>
+    
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+        <footer>
+            <div class="inner-footer">
+                <div class="footer-content">
+                    <div class="in-footer-contents">
+                        <h3>DISCLAIMER</h3>
+                        <div class="child-contents">
+                            <p>The information provided on this website and its affiliated groups/communities (telegram, telegram voice chat, discord, reddit and any other related sources) does not constitute investment advice, financial advice, trading advice, or any other sort of advice and you should not treat any of the website's content as such.
+
+                            <br><br> All investment strategies and investments involve risk of loss. Any reference to an investment’s past or potential performance is not, and should not be construed as a recommendation or as a guarantee of any specific outcome or profit.</p>
+
+                        </div>
+                            
+                    </div>
+                    <div class="in-footer-contents">
+                        <h3>LINKS</h3>
+                        <div class="child-contents">
+                            <ul>
+                                <li><a href="#">Home</a></li>
+                                <li><a href="#">Tokenomics</a></li>
+                                <li><a href="#">Roadmap</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="in-footer-contents">
+                        <h3>SOCIALS</h3>
+                        <div class="child-contents child-contents2">
+                            <ul>
+                                <li><a href="#">Telegram</a></li>
+                                <li><a href="#">Twitter</a></li>
+                            </ul>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="cop-footer">
+                    <p>Copyright &copy; Cro Cake 2022.</p>
+            </div>
+
+        </footer>
+
+</body>
+</html>

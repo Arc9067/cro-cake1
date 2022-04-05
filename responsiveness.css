@@ -1,0 +1,208 @@
+@media screen and (max-width:800px) {
+    *{
+        padding: 0px;
+        margin:0px;
+    }
+    
+
+    .head-bar{
+        background-color: purple;
+        position: fixed;
+        /* display: none; */
+    }
+
+    nav div:last-child{
+        display: block;
+        position: absolute;
+        right: 15px;
+        top: 18px;
+    }
+
+    .fa-bars{
+        font-size: 20px;
+        cursor: pointer;
+    }
+
+    .fa-xmark{
+        font-size: 20px;
+        display: none;
+        cursor: pointer;
+    }
+
+    .nav-ul{
+        flex-direction: column;
+        width: 50%;
+        height: 100vh;
+        background-color: black;
+        position: absolute;
+        right: -50%;
+        transition: 2s;
+}
+
+
+    .inner-home{
+        /* background-color: green; */
+        height: 60%;
+        width: 50%;
+    }
+
+    .home-btns{
+        /* background-color: blue; */
+        width: 100%;
+    }
+
+    .inner-home-icn{
+        width: 75%;
+        /* background-color: red; */
+    }
+    .check-icon{
+        /* background-color: red; */
+        width: 40%;
+        justify-content: space-between;
+    }
+
+    .about-cro{
+        /* background-color: red; */
+        height: 800px;
+    }
+
+    .inner-about-cro{
+        /* background-color: green; */
+        flex-direction: column;
+    }
+
+    .about-c{
+        height: 60%;
+        width: 100%;
+    }
+
+    .about-img{
+        height: 40%;
+        width: 100%;
+        background-size: 60%;
+    }
+
+    .tokenomics{
+        /* background-color: green; */
+        height: auto;
+    }
+    .token-contentp{
+        flex-direction: column;
+    }
+    .token-txt{
+        width: 100%;
+        height: 300px;
+    }
+
+    #donutchart{
+        width: 100%;
+        height: 50%;
+    }
+
+    .faq{
+        height: 1000px;
+    }
+
+    .faq>h3{
+        font-size: 30px;
+        margin-left: 5%;
+    }
+    .mfaq{
+        /* background-color: red; */
+        width: 100%;
+        height: 20%;
+    }
+
+    .about-t{
+        /* background-color: red; */
+        height: 600px;
+    }
+
+    .inner-about-t{
+        flex-direction: column;
+    }
+
+    .about-t-img{
+        height: 50%;
+        width: 100%;
+        background-size: 50%;
+        background-position: center;
+    }
+
+    .about-t-txt{
+        height: 50%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .token-t{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .bdiv{
+        height: 60%;
+        width: 100%;
+        /* background-color: green; */
+    }
+    
+    .bdiv>a>button{
+        margin: 0px;
+    }
+    footer{
+        height: auto;
+        margin-left: 0px;
+        /* background-color: red; */
+    }
+
+    .inner-footer{
+        flex-direction: column;
+        /* background-color: green; */
+        flex-direction: column;
+        height: auto;
+    }
+
+
+    .footer-content{
+        /* background-color: green; */
+        height: auto;
+        flex-direction: column;
+    }
+
+
+    .in-footer-contents{
+        /* background-color: yellow; */
+        width: 100%;
+        height: 250px;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .in-footer-contents:nth-child(2){
+        height: 200px;
+    }
+
+    .in-footer-contents:nth3
+{
+    height: 150px;
+}
+    .child-contents p{
+        height: auto;
+        font-size: 14px;
+    }
+
+    .in-footer-contents h3{
+        font-size: 25px;
+    }
+
+    .cop-footer{
+        height: 30px;
+    }
+    
+
+}
